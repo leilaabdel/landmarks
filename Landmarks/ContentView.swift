@@ -15,17 +15,17 @@ struct ContentView: View {
             VStack {
                 Text("I am a woman").font(.title).foregroundColor(.black)
                     .padding()
-                
                 HStack {
                     Text("Here").font(.subheadline)
                     Spacer()
-                    Text("Florida").font(.subheadline)
-                }.offset(y: -29).padding()
-             
+                    Text("Secret").font(.subheadline)
+                }
             }.padding()
-            
-        }
-
+            Divider()
+            Text("About being a woman").font(.title2)
+            Text("It means first being honest")
+        }.padding()
+        Spacer()
     }
 }
 
